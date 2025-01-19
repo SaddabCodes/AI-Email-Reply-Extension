@@ -1,6 +1,6 @@
 # Email Writer Assistant - Chrome Extension
 
-This Chrome extension integrates AI-powered email reply generation directly into Gmail. It allows users to generate professional email replies with a single click, using the backend AI service you've built.
+This Chrome extension integrates AI-powered email reply generation directly into Gmail. It allows users to generate professional email replies with a single click.
 
 ## Features
 
