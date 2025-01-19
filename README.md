@@ -12,15 +12,12 @@ This Chrome extension integrates AI-powered email reply generation directly into
 ## Technologies Used
 
 - **JavaScript**: For creating the content script and interaction with Gmail's UI.
-
 - **Chrome Extension API**: For integrating the extension with the browser.
-- **WebClient (Backend)**: For making API requests to the backend AI service.
+- **Spring Boot (Backend)**: The backend AI service is built using Spring Boot, which provides RESTful APIs for generating email replies. It handles incoming requests, processes the email content, and integrates with AI models to produce professional responses.
 
 ## How It Works
 
 1. **Button Injection**: When the compose window is detected, a button labeled "AI Reply" is injected into Gmail's compose toolbar.
 2. **Email Content Extraction**: The content of the email is extracted from the compose window.
-3. **AI Reply Generation**: The email content is sent to the backend AI service (running locally at `http://localhost:8080`) to generate a reply.
+3. **AI Reply Generation**: The email content is sent to the backend AI service (running locally at http://localhost:8080) to generate a reply.
 4. **Reply Insertion**: The generated reply is inserted into the compose window.
-
-
